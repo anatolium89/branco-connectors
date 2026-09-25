@@ -1,0 +1,31 @@
+{
+  "name": "branco",
+  "version": "1.0.0",
+  "description": "French legal research with sources and citation checking.",
+  "author": {
+    "name": "BRANCO - Juan Branco"
+  },
+  "homepage": "https://droit.juan-branco.fr/installer",
+  "repository": "https://github.com/anatolium89/branco-connectors",
+  "license": "MIT",
+  "keywords": [
+    "mcp",
+    "law",
+    "french-law",
+    "legal-research"
+  ],
+  "mcpServers": "mcp.json",
+  "variables": {
+    "type": "object",
+    "properties": {
+      "BRANCO_API_KEY": {
+        "type": "string",
+        "title": "BRANCO API key",
+        "description": "Personal research key from your BRANCO account."
+      }
+    },
+    "required": [
+      "BRANCO_API_KEY"
+    ]
+  }
+}

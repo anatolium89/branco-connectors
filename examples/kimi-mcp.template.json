@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "branco": {
+      "url": "https://droit.juan-branco.fr/api/mcp",
+      "headers": {
+        "Authorization": "Bearer YOUR_PERSONAL_BRANCO_API_KEY",
+        "X-Branco-Tool-Profile": "france"
+      }
+    }
+  }
+}

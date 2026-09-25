@@ -1,0 +1,15 @@
+{
+  "type": "mcp",
+  "server_label": "branco",
+  "server_url": "https://droit.juan-branco.fr/api/mcp",
+  "transport_type": "streamable-http",
+  "headers": {
+    "Authorization": "Bearer YOUR_PERSONAL_BRANCO_API_KEY",
+    "X-Branco-Tool-Profile": "france"
+  },
+  "allowed_tools": [
+    "rechercher_sources",
+    "lire_source",
+    "verifier_citation"
+  ]
+}
