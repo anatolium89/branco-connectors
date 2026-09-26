@@ -1,0 +1,26 @@
+{
+  "name": "branco",
+  "version": "1.1.0",
+  "description": "French legal research with sources and citation checking through your BRANCO Research subscription.",
+  "homepage": "https://droit.juan-branco.fr/installer",
+  "license": "MIT",
+  "keywords": [
+    "mcp",
+    "french-law",
+    "legal-research"
+  ],
+  "interface": {
+    "displayName": "BRANCO",
+    "shortDescription": "French law, case law and citation checking",
+    "developerName": "BRANCO - Juan Branco",
+    "websiteURL": "https://droit.juan-branco.fr"
+  },
+  "mcpServers": {
+    "branco": {
+      "url": "https://droit.juan-branco.fr/api/mcp/oauth",
+      "headers": {
+        "X-Branco-Tool-Profile": "france"
+      }
+    }
+  }
+}

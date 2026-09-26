@@ -1,23 +1,14 @@
 {
   "name": "branco",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "French legal research: legislation, case law and citation checking through your BRANCO subscription.",
   "mcpServers": {
     "branco": {
-      "httpUrl": "https://droit.juan-branco.fr/api/mcp",
+      "httpUrl": "https://droit.juan-branco.fr/api/mcp/oauth",
       "headers": {
-        "Authorization": "Bearer ${BRANCO_API_KEY}",
         "X-Branco-Tool-Profile": "france"
       },
       "timeout": 60000
     }
-  },
-  "settings": [
-    {
-      "name": "BRANCO API key",
-      "description": "Your personal BRANCO research key, available in Mon compte.",
-      "envVar": "BRANCO_API_KEY",
-      "sensitive": true
-    }
-  ]
+  }
 }

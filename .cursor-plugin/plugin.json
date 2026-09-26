@@ -1,6 +1,6 @@
 {
   "name": "branco",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "French legal research with sources and citation checking.",
   "author": {
     "name": "BRANCO - Juan Branco"
@@ -14,18 +14,5 @@
     "french-law",
     "legal-research"
   ],
-  "mcpServers": "mcp.json",
-  "variables": {
-    "type": "object",
-    "properties": {
-      "BRANCO_API_KEY": {
-        "type": "string",
-        "title": "BRANCO API key",
-        "description": "Personal research key from your BRANCO account."
-      }
-    },
-    "required": [
-      "BRANCO_API_KEY"
-    ]
-  }
+  "mcpServers": "mcp.json"
 }
