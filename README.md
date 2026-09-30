@@ -1,6 +1,8 @@
 # BRANCO connectors
 
-French legal research in your AI assistant. Search legislation and case law, read sources, and check citations through [BRANCO](https://droit.juan-branco.fr), created by Juan Branco, lawyer and doctor of law.
+BRANCO connects AI assistants to French legal sources and a private university workspace, created by Juan Branco, lawyer and doctor of law. Research tools search legislation and case law, read dated sources, check citations, and support procedural calculations. The university profile offers L1–M2 learning paths, private course and exercise documents, progress tracking and substantive written corrections.
+
+**Two connection profiles:** the default OAuth configuration in this repository is for **Research** subscriptions and excludes private student records and administrative/payment tools. The university workspace uses a personal key and its own tool profile, with read/write operations limited to the subscribing student's records. See the [university installation guide](https://droit.juan-branco.fr/installer) before enabling that profile. An OAuth research configuration does not activate the university workspace.
 
 [Get BRANCO](https://droit.juan-branco.fr/offres) · [Installation guide](https://droit.juan-branco.fr/installer) · [Privacy](https://droit.juan-branco.fr/confidentialite)
 
@@ -57,7 +59,7 @@ These files contain connection metadata and documentation only. They include no 
 
 OAuth gives each authorized application a revocable connection, with short-lived access tokens and rotating refresh tokens. Review or revoke connections in [Mon compte → Connexions](https://droit.juan-branco.fr/compte/connexions). Revocation stops future access; it cannot erase results already received by an application. Never share an access or refresh token.
 
-The production endpoint has passed discovery, registration, login-routing and invalid-request checks. End-to-end login with a paid subscriber has not yet been verified separately in each listed client.
+The production endpoint has passed discovery, registration, login-routing and invalid-request checks. OAuth discovery and a paid-subscriber authorization were verified on the BRANCO endpoint on 26 September 2026. End-to-end use in each listed client and marketplace admission remain separate checks.
 
 ## En français
 
@@ -74,3 +76,7 @@ The MIT licence covers only the connector files and documentation in this reposi
 - [Kimi Code plugins](https://www.kimi.com/code/docs/en/kimi-code-cli/customization/plugins.html)
 - [Kimi Code MCP](https://www.kimi.com/code/docs/en/kimi-code-cli/customization/mcp.html)
 - [Z.ai MCP](https://docs.z.ai/guides/capabilities/mcp-call)
+
+## Release 1.2.0 · 30 September 2026
+
+Descriptions now distinguish the Research OAuth surface from the private university key profile, consistent with the Claude directory submission. Public configuration contains no personal credential or student record. Service prices and quotas are maintained on [BRANCO offers](https://droit.juan-branco.fr/offres) and in the terms accepted at purchase.

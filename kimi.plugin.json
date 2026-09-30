@@ -1,7 +1,7 @@
 {
   "name": "branco",
-  "version": "1.1.0",
-  "description": "French legal research with sources and citation checking through your BRANCO Research subscription.",
+  "version": "1.2.0",
+  "description": "BRANCO Research: French legal sources, case law, citation checks and procedure tools via personal OAuth. Private university workspace requires its separate key profile.",
   "homepage": "https://droit.juan-branco.fr/installer",
   "license": "MIT",
   "keywords": [
