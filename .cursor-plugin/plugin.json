@@ -14,5 +14,6 @@
     "french-law",
     "legal-research"
   ],
-  "mcpServers": "mcp.json"
+  "mcpServers": "mcp.json",
+  "logo": "assets/branco-icon.png"
 }

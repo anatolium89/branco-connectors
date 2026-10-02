@@ -1,5 +1,7 @@
 # BRANCO connectors
 
+![BRANCO - gold bee](assets/branco-icon.png)
+
 BRANCO connects AI assistants to French legal sources and a private university workspace, created by Juan Branco, lawyer and doctor of law. Research tools search legislation and case law, read dated sources, check citations, and support procedural calculations. The university profile offers L1–M2 learning paths, private course and exercise documents, progress tracking and substantive written corrections.
 
 **Two connection profiles:** the default OAuth configuration in this repository is for **Research** subscriptions and excludes private student records and administrative/payment tools. The university workspace uses a personal key and its own tool profile, with read/write operations limited to the subscribing student's records. See the [university installation guide](https://droit.juan-branco.fr/installer) before enabling that profile. An OAuth research configuration does not activate the university workspace.
