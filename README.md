@@ -45,7 +45,7 @@ For applications using the Z.ai MCP API, `examples/zai-mcp.template.json` shows 
 
 Free-form research requires an active Research subscription. Your subscription rights, shared quotas and service limits apply across clients. OAuth provides research tools only; private university dossiers, account administration and payment tools are excluded.
 
-Clients without OAuth can still use `https://droit.juan-branco.fr/api/mcp` with a personal Research key in `Authorization: Bearer <key>`. That legacy endpoint exposes only three predefined demonstration scenarios when used without a key. The university workspace has its own profile and installation guide.
+Clients without OAuth can still use `https://droit.juan-branco.fr/api/mcp` with a personal Research key in `Authorization: Bearer <key>`. That legacy endpoint exposes six predefined demonstration scenarios when used without a key. The university workspace has its own profile and installation guide.
 
 ## Questions to try
 
