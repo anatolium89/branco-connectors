@@ -1,0 +1,59 @@
+{
+  "$schema": "https://catalog.msh.team/misc/kimi.plugin.schema.json",
+  "name": "branco-legal-research",
+  "version": "1.0.0",
+  "description": "Recherche en droit français, confrontation des autorités et vérification des citations avec BRANCO.",
+  "keywords": [
+    "french-law",
+    "legal-research",
+    "legislation",
+    "case-law",
+    "citations"
+  ],
+  "author": "BRANCO - Juan Branco",
+  "license": "MIT",
+  "skillInstructions": "Use the BRANCO MCP tools exposed by this connection and inspect their current schemas. Tool names may carry a Kimi MCP namespace prefix. For lire_source, read a code article without a section argument; use section=\"nota\" only for its NOTA. Preserve source pagination and version controls.",
+  "interface": {
+    "displayName": "BRANCO - Droit français",
+    "shortDescription": "Rechercher le droit et vérifier les sources",
+    "longDescription": "Recherchez les textes et la jurisprudence, lisez les sources, confrontez les autorités et vérifiez les citations avec votre compte Recherche BRANCO. Conçu par Juan Branco, avocat et docteur en droit.",
+    "developerName": "BRANCO - Juan Branco",
+    "websiteURL": "https://droit.juan-branco.fr/installer",
+    "iconUrl": "",
+    "category": "PRODUCTIVITY",
+    "defaultLocale": "en-US",
+    "locales": "./locales/",
+    "tryPrompts": [
+      "Lis l’article 1240 du Code civil et indique sa source et sa version.",
+      "Recherche les décisions qui soutiennent et limitent cet argument.",
+      "Vérifie cette citation dans sa source."
+    ],
+    "skillOverrides": {
+      "rechercher-droit-francais": {
+        "displayName": "Recherche en droit français",
+        "description": "Rechercher et lire les textes et décisions applicables."
+      },
+      "confronter-autorites": {
+        "displayName": "Confrontation des autorités",
+        "description": "Comparer les décisions favorables, contraires et limitatives."
+      },
+      "verifier-citations": {
+        "displayName": "Vérification des citations",
+        "description": "Contrôler une citation et la portée du passage dans sa source."
+      }
+    },
+    "mcpOverrides": {
+      "branco": {
+        "displayName": "BRANCO",
+        "description": "Recherche de textes et de décisions, lecture des sources et vérification des citations."
+      }
+    }
+  },
+  "skills": "./skills/",
+  "mcpServers": {
+    "branco": {
+      "url": "https://droit.juan-branco.fr/api/mcp/oauth"
+    }
+  },
+  "homepage": "https://droit.juan-branco.fr/installer"
+}

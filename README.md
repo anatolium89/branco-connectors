@@ -22,6 +22,14 @@ This integration is for **Gemini CLI**. It does not imply availability in the co
 
 This repository contains a Cursor plugin manifest and an OAuth `mcp.json`. Add the configuration through Cursor MCP settings, then use its browser authentication action to connect your BRANCO account. No API key is required in these files. See the [installation guide](https://droit.juan-branco.fr/installer). Marketplace publication is separate from using this configuration.
 
+## Kimi Work
+
+The complete BRANCO plugin for Kimi Work includes three workflows: French legal research, comparison of supporting and opposing authorities, and quotation verification. It uses browser-based BRANCO OAuth authorization.
+
+Download [BRANCO for Kimi Work 1.0.0](https://github.com/anatolium89/branco-connectors/releases/download/kimi-v1.0.0/branco-kimi-1.0.0.zip), then import it with Kimi Work’s Plugin Builder and install it from your personal plugins. Each user connects their own BRANCO Research account.
+
+The [plugin source](plugins/kimi-work/branco-legal-research) contains the manifest, workflows, official BRANCO icon and licence. The package passed Kimi’s bundled validator with zero errors and zero warnings. Local installation and OAuth connection were verified on 21 October 2026. Official marketplace publication is requested separately through Kimi’s review process.
+
 ## Kimi Code
 
 Install the plugin in Kimi Code:

@@ -1,0 +1,31 @@
+{
+  "displayName": "BRANCO - 法国法律",
+  "shortDescription": "检索法律并核验来源",
+  "longDescription": "使用现有 BRANCO Research 账户检索法国法律法规与判例，阅读来源、比较支持及相反判例，并核验引文。由律师、法学博士 Juan Branco 创建。",
+  "tryPrompts": [
+    "使用 BRANCO 阅读法国民法典第1240条，并提供来源和版本。",
+    "检索支持和限制这一法律论点的判例。",
+    "对照原始来源核验这段引文。"
+  ],
+  "mcpOverrides": {
+    "branco": {
+      "displayName": "BRANCO",
+      "description": "检索和阅读法律法规与判例，并核验引文。"
+    }
+  },
+  "skillOverrides": {
+    "rechercher-droit-francais": {
+      "displayName": "法国法律研究",
+      "description": "检索并阅读适用的法律法规与判例。"
+    },
+    "confronter-autorites": {
+      "displayName": "判例对比",
+      "description": "比较支持、相反及限制性判例。"
+    },
+    "verifier-citations": {
+      "displayName": "引文核验",
+      "description": "核验引文措辞及其在来源中的法律意义。"
+    }
+  },
+  "developerName": "BRANCO - Juan Branco"
+}
